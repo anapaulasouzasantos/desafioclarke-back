@@ -13,7 +13,7 @@ const getSuppliers = async (req, res) => {
     }
 
     try {
-        const response = await knex('fornecedores').whereRaw(`limite_min_kwh >= ${consumption}`);
+        const response = await knex('fornecedores').whereRaw(`${consumption} >= limite_min_kwh`);
 
         return res.json(response);
     } catch (error) {

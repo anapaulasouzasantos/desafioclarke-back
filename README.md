@@ -53,3 +53,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 -   **[KnexJS](http://knexjs.org/)**
 -   **[dotENV](https://github.com/motdotla/dotenv)**
+
+<h4 align="center"> 
+	Obs.: Devido deploy do back, ter sido feita no Render, a primeira requisição pode demorar 1min, mas as demais seguem um tempo normal.
+</h4>
